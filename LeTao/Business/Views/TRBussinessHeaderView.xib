@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15A2301" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TRBussinseeHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uGJ-y9-8mM">
+                    <rect key="frame" x="0.0" y="0.0" width="198" height="50"/>
+                    <state key="normal" title="全部分类">
+                        <color key="titleColor" red="0.0036258012820512553" green="0.0036258012820512553" blue="0.0036258012820512553" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MRg-7o-WNl">
+                    <rect key="frame" x="402" y="0.0" width="198" height="50"/>
+                    <state key="normal" title="全部排序">
+                        <color key="titleColor" red="0.0036258012819999999" green="0.0036258012819999999" blue="0.0036258012819999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bRV-Fl-eqm">
+                    <rect key="frame" x="201" y="3" width="1" height="44"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="el4-jO-lLM"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kNa-7S-3aD">
+                    <rect key="frame" x="398" y="3" width="1" height="44"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="BAk-ca-zOd"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v81-fA-f4T">
+                    <rect key="frame" x="205" y="0.0" width="190" height="50"/>
+                    <state key="normal" title="全部区域">
+                        <color key="titleColor" red="0.0036258012819999999" green="0.0036258012819999999" blue="0.0036258012819999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="v81-fA-f4T" secondAttribute="bottom" id="0MA-Dn-wdY"/>
+                <constraint firstItem="kNa-7S-3aD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="3" id="17K-cR-8B9"/>
+                <constraint firstAttribute="bottom" secondItem="MRg-7o-WNl" secondAttribute="bottom" id="7q6-G3-WST"/>
+                <constraint firstItem="uGJ-y9-8mM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="8Rz-9d-3mI"/>
+                <constraint firstItem="v81-fA-f4T" firstAttribute="leading" secondItem="bRV-Fl-eqm" secondAttribute="trailing" constant="3" id="EI9-kt-Q8V"/>
+                <constraint firstItem="MRg-7o-WNl" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.33" id="IuP-Yc-JHn"/>
+                <constraint firstItem="MRg-7o-WNl" firstAttribute="leading" secondItem="kNa-7S-3aD" secondAttribute="trailing" constant="3" id="OQx-5N-fpp"/>
+                <constraint firstItem="bRV-Fl-eqm" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="3" id="UKk-JT-w3X"/>
+                <constraint firstItem="kNa-7S-3aD" firstAttribute="leading" secondItem="v81-fA-f4T" secondAttribute="trailing" constant="3" id="Vph-J9-dDE"/>
+                <constraint firstItem="uGJ-y9-8mM" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.33" id="WHp-DF-RHI"/>
+                <constraint firstAttribute="bottom" secondItem="kNa-7S-3aD" secondAttribute="bottom" constant="3" id="Yw0-VD-yWC"/>
+                <constraint firstAttribute="bottom" secondItem="uGJ-y9-8mM" secondAttribute="bottom" id="bsw-8G-gkQ"/>
+                <constraint firstAttribute="bottom" secondItem="bRV-Fl-eqm" secondAttribute="bottom" constant="3" id="iy8-Xf-oRy"/>
+                <constraint firstItem="bRV-Fl-eqm" firstAttribute="leading" secondItem="uGJ-y9-8mM" secondAttribute="trailing" constant="3" id="p0O-wv-SCm"/>
+                <constraint firstItem="MRg-7o-WNl" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="qci-to-CIn"/>
+                <constraint firstAttribute="trailing" secondItem="MRg-7o-WNl" secondAttribute="trailing" id="tSQ-Fm-8W3"/>
+                <constraint firstItem="v81-fA-f4T" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="uIZ-QS-Lxj"/>
+                <constraint firstItem="uGJ-y9-8mM" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="zaK-b2-SmR"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="categoryButton" destination="uGJ-y9-8mM" id="fmp-7o-hSC"/>
+                <outlet property="regionButton" destination="v81-fA-f4T" id="Hl8-av-2j2"/>
+                <outlet property="sortButton" destination="MRg-7o-WNl" id="tl6-Ur-5nK"/>
+            </connections>
+            <point key="canvasLocation" x="588" y="352"/>
+        </view>
+    </objects>
+</document>
