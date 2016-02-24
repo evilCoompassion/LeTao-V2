@@ -86,6 +86,25 @@
 		8510DD921C7C039700F51D3B /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8510DD6D1C7C039600F51D3B /* UIView+WebCacheOperation.m */; };
 		8510DD961C7C0A7500F51D3B /* TRMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8510DD941C7C0A7500F51D3B /* TRMainTableViewCell.m */; };
 		8510DD971C7C0A7500F51D3B /* TRMainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8510DD951C7C0A7500F51D3B /* TRMainTableViewCell.xib */; };
+		85B4A3E51C7D40270065D9A2 /* TRSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B4A3E41C7D40270065D9A2 /* TRSortViewController.m */; };
+		85B4A3F21C7D537E0065D9A2 /* categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85B4A3E71C7D537E0065D9A2 /* categories.plist */; };
+		85B4A3F31C7D537E0065D9A2 /* cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85B4A3E81C7D537E0065D9A2 /* cities.plist */; };
+		85B4A3F41C7D537E0065D9A2 /* city.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85B4A3E91C7D537E0065D9A2 /* city.plist */; };
+		85B4A3F51C7D537E0065D9A2 /* citydata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85B4A3EA1C7D537E0065D9A2 /* citydata.plist */; };
+		85B4A3F61C7D537E0065D9A2 /* citydict.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85B4A3EB1C7D537E0065D9A2 /* citydict.plist */; };
+		85B4A3F71C7D537E0065D9A2 /* cityGroups.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85B4A3EC1C7D537E0065D9A2 /* cityGroups.plist */; };
+		85B4A3F81C7D537E0065D9A2 /* menuData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85B4A3ED1C7D537E0065D9A2 /* menuData.plist */; };
+		85B4A3F91C7D537E0065D9A2 /* MineInformationData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85B4A3EE1C7D537E0065D9A2 /* MineInformationData.plist */; };
+		85B4A3FA1C7D537E0065D9A2 /* MoreData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85B4A3EF1C7D537E0065D9A2 /* MoreData.plist */; };
+		85B4A3FB1C7D537E0065D9A2 /* PortalSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85B4A3F01C7D537E0065D9A2 /* PortalSettings.plist */; };
+		85B4A3FC1C7D537E0065D9A2 /* sorts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85B4A3F11C7D537E0065D9A2 /* sorts.plist */; };
+		85B4A3FF1C7D55790065D9A2 /* TRSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B4A3FE1C7D55790065D9A2 /* TRSort.m */; };
+		85B4A4021C7D82AD0065D9A2 /* TRMetaDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B4A4011C7D82AD0065D9A2 /* TRMetaDataView.m */; };
+		85B4A4041C7D82DC0065D9A2 /* TRMetaDataView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85B4A4031C7D82DC0065D9A2 /* TRMetaDataView.xib */; };
+		85B4A4071C7D85B30065D9A2 /* TRRegionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B4A4061C7D85B30065D9A2 /* TRRegionViewController.m */; };
+		85B4A40A1C7D8B860065D9A2 /* TRRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B4A4091C7D8B860065D9A2 /* TRRegion.m */; };
+		85B4A40D1C7D8C6F0065D9A2 /* TRCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B4A40C1C7D8C6F0065D9A2 /* TRCity.m */; };
+		85B4A4101C7DA6120065D9A2 /* TRTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B4A40F1C7DA6120065D9A2 /* TRTableViewCell.m */; };
 		85DE9DB01C7C318500C396B5 /* TRDeal.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DE9DAF1C7C318500C396B5 /* TRDeal.m */; };
 		85DE9DB31C7C33E900C396B5 /* TRMetaDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DE9DB21C7C33E900C396B5 /* TRMetaDataTool.m */; };
 		85DE9DB61C7C534400C396B5 /* TRBussinseeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DE9DB51C7C534400C396B5 /* TRBussinseeHeaderView.m */; };
@@ -245,6 +264,32 @@
 		8510DD931C7C0A7500F51D3B /* TRMainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRMainTableViewCell.h; sourceTree = "<group>"; };
 		8510DD941C7C0A7500F51D3B /* TRMainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRMainTableViewCell.m; sourceTree = "<group>"; };
 		8510DD951C7C0A7500F51D3B /* TRMainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRMainTableViewCell.xib; sourceTree = "<group>"; };
+		85B4A3E31C7D40270065D9A2 /* TRSortViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRSortViewController.h; sourceTree = "<group>"; };
+		85B4A3E41C7D40270065D9A2 /* TRSortViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRSortViewController.m; sourceTree = "<group>"; };
+		85B4A3E71C7D537E0065D9A2 /* categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = categories.plist; sourceTree = "<group>"; };
+		85B4A3E81C7D537E0065D9A2 /* cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cities.plist; sourceTree = "<group>"; };
+		85B4A3E91C7D537E0065D9A2 /* city.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = city.plist; sourceTree = "<group>"; };
+		85B4A3EA1C7D537E0065D9A2 /* citydata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = citydata.plist; sourceTree = "<group>"; };
+		85B4A3EB1C7D537E0065D9A2 /* citydict.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = citydict.plist; sourceTree = "<group>"; };
+		85B4A3EC1C7D537E0065D9A2 /* cityGroups.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cityGroups.plist; sourceTree = "<group>"; };
+		85B4A3ED1C7D537E0065D9A2 /* menuData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = menuData.plist; sourceTree = "<group>"; };
+		85B4A3EE1C7D537E0065D9A2 /* MineInformationData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MineInformationData.plist; sourceTree = "<group>"; };
+		85B4A3EF1C7D537E0065D9A2 /* MoreData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MoreData.plist; sourceTree = "<group>"; };
+		85B4A3F01C7D537E0065D9A2 /* PortalSettings.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = PortalSettings.plist; sourceTree = "<group>"; };
+		85B4A3F11C7D537E0065D9A2 /* sorts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sorts.plist; sourceTree = "<group>"; };
+		85B4A3FD1C7D55790065D9A2 /* TRSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRSort.h; sourceTree = "<group>"; };
+		85B4A3FE1C7D55790065D9A2 /* TRSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRSort.m; sourceTree = "<group>"; };
+		85B4A4001C7D82AD0065D9A2 /* TRMetaDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRMetaDataView.h; sourceTree = "<group>"; };
+		85B4A4011C7D82AD0065D9A2 /* TRMetaDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRMetaDataView.m; sourceTree = "<group>"; };
+		85B4A4031C7D82DC0065D9A2 /* TRMetaDataView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRMetaDataView.xib; sourceTree = "<group>"; };
+		85B4A4051C7D85B30065D9A2 /* TRRegionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRRegionViewController.h; sourceTree = "<group>"; };
+		85B4A4061C7D85B30065D9A2 /* TRRegionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRRegionViewController.m; sourceTree = "<group>"; };
+		85B4A4081C7D8B860065D9A2 /* TRRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRRegion.h; sourceTree = "<group>"; };
+		85B4A4091C7D8B860065D9A2 /* TRRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRRegion.m; sourceTree = "<group>"; };
+		85B4A40B1C7D8C6F0065D9A2 /* TRCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRCity.h; sourceTree = "<group>"; };
+		85B4A40C1C7D8C6F0065D9A2 /* TRCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRCity.m; sourceTree = "<group>"; };
+		85B4A40E1C7DA6120065D9A2 /* TRTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRTableViewCell.h; sourceTree = "<group>"; };
+		85B4A40F1C7DA6120065D9A2 /* TRTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRTableViewCell.m; sourceTree = "<group>"; };
 		85DE9DAE1C7C318500C396B5 /* TRDeal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRDeal.h; sourceTree = "<group>"; };
 		85DE9DAF1C7C318500C396B5 /* TRDeal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRDeal.m; sourceTree = "<group>"; };
 		85DE9DB11C7C33E900C396B5 /* TRMetaDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRMetaDataTool.h; sourceTree = "<group>"; };
@@ -326,6 +371,10 @@
 			children = (
 				8510DCC51C7BEC0E00F51D3B /* TRBusinessViewController.h */,
 				8510DCC61C7BEC0E00F51D3B /* TRBusinessViewController.m */,
+				85B4A3E31C7D40270065D9A2 /* TRSortViewController.h */,
+				85B4A3E41C7D40270065D9A2 /* TRSortViewController.m */,
+				85B4A4051C7D85B30065D9A2 /* TRRegionViewController.h */,
+				85B4A4061C7D85B30065D9A2 /* TRRegionViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -333,6 +382,12 @@
 		8510B7BE1C7AFE7E008C32EC /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				85B4A3FD1C7D55790065D9A2 /* TRSort.h */,
+				85B4A3FE1C7D55790065D9A2 /* TRSort.m */,
+				85B4A4081C7D8B860065D9A2 /* TRRegion.h */,
+				85B4A4091C7D8B860065D9A2 /* TRRegion.m */,
+				85B4A40B1C7D8C6F0065D9A2 /* TRCity.h */,
+				85B4A40C1C7D8C6F0065D9A2 /* TRCity.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -343,6 +398,11 @@
 				85DE9DB41C7C534400C396B5 /* TRBussinseeHeaderView.h */,
 				85DE9DB51C7C534400C396B5 /* TRBussinseeHeaderView.m */,
 				85DE9DB71C7C538800C396B5 /* TRBussinessHeaderView.xib */,
+				85B4A4001C7D82AD0065D9A2 /* TRMetaDataView.h */,
+				85B4A4011C7D82AD0065D9A2 /* TRMetaDataView.m */,
+				85B4A4031C7D82DC0065D9A2 /* TRMetaDataView.xib */,
+				85B4A40E1C7DA6120065D9A2 /* TRTableViewCell.h */,
+				85B4A40F1C7DA6120065D9A2 /* TRTableViewCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -416,6 +476,7 @@
 		8510B7C81C7AFE7E008C32EC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				85B4A3E61C7D537E0065D9A2 /* PList */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -729,6 +790,24 @@
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
+		85B4A3E61C7D537E0065D9A2 /* PList */ = {
+			isa = PBXGroup;
+			children = (
+				85B4A3E71C7D537E0065D9A2 /* categories.plist */,
+				85B4A3E81C7D537E0065D9A2 /* cities.plist */,
+				85B4A3E91C7D537E0065D9A2 /* city.plist */,
+				85B4A3EA1C7D537E0065D9A2 /* citydata.plist */,
+				85B4A3EB1C7D537E0065D9A2 /* citydict.plist */,
+				85B4A3EC1C7D537E0065D9A2 /* cityGroups.plist */,
+				85B4A3ED1C7D537E0065D9A2 /* menuData.plist */,
+				85B4A3EE1C7D537E0065D9A2 /* MineInformationData.plist */,
+				85B4A3EF1C7D537E0065D9A2 /* MoreData.plist */,
+				85B4A3F01C7D537E0065D9A2 /* PortalSettings.plist */,
+				85B4A3F11C7D537E0065D9A2 /* sorts.plist */,
+			);
+			path = PList;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -786,16 +865,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85B4A3F91C7D537E0065D9A2 /* MineInformationData.plist in Resources */,
 				8510B7B51C7AFC9B008C32EC /* LaunchScreen.storyboard in Resources */,
+				85B4A3F31C7D537E0065D9A2 /* cities.plist in Resources */,
+				85B4A3FC1C7D537E0065D9A2 /* sorts.plist in Resources */,
 				8510DD171C7BF2C300F51D3B /* Lato-Italic.ttf in Resources */,
 				8510DD161C7BF2C300F51D3B /* Lato-Bold.ttf in Resources */,
 				85DE9DB81C7C538800C396B5 /* TRBussinessHeaderView.xib in Resources */,
+				85B4A3F71C7D537E0065D9A2 /* cityGroups.plist in Resources */,
 				8510B7B21C7AFC9B008C32EC /* Assets.xcassets in Resources */,
 				8510DD971C7C0A7500F51D3B /* TRMainTableViewCell.xib in Resources */,
 				8510DD191C7BF2C300F51D3B /* Lato-Regular.ttf in Resources */,
 				8510DD131C7BF2C300F51D3B /* LICENSE in Resources */,
 				8510DD151C7BF2C300F51D3B /* flat-ui-icons-regular.ttf in Resources */,
+				85B4A4041C7D82DC0065D9A2 /* TRMetaDataView.xib in Resources */,
 				8510B7B01C7AFC9B008C32EC /* Main.storyboard in Resources */,
+				85B4A3FB1C7D537E0065D9A2 /* PortalSettings.plist in Resources */,
+				85B4A3F81C7D537E0065D9A2 /* menuData.plist in Resources */,
+				85B4A3F51C7D537E0065D9A2 /* citydata.plist in Resources */,
+				85B4A3F61C7D537E0065D9A2 /* citydict.plist in Resources */,
+				85B4A3F21C7D537E0065D9A2 /* categories.plist in Resources */,
+				85B4A3FA1C7D537E0065D9A2 /* MoreData.plist in Resources */,
+				85B4A3F41C7D537E0065D9A2 /* city.plist in Resources */,
 				8510DD7E1C7C039700F51D3B /* MJRefresh.bundle in Resources */,
 				8510DD181C7BF2C300F51D3B /* Lato-Light.ttf in Resources */,
 			);
@@ -831,8 +922,11 @@
 				8510DD061C7BF2C300F51D3B /* NSString+Icons.m in Sources */,
 				8510DD091C7BF2C300F51D3B /* UIFont+FlatUI.m in Sources */,
 				8510DD021C7BF2C300F51D3B /* FUIPopoverBackgroundView.m in Sources */,
+				85B4A40A1C7D8B860065D9A2 /* TRRegion.m in Sources */,
 				8510DD071C7BF2C300F51D3B /* UIBarButtonItem+FlatUI.m in Sources */,
 				8510DD8B1C7C039700F51D3B /* SDWebImagePrefetcher.m in Sources */,
+				85B4A3E51C7D40270065D9A2 /* TRSortViewController.m in Sources */,
+				85B4A4021C7D82AD0065D9A2 /* TRMetaDataView.m in Sources */,
 				8510DD0D1C7BF2C300F51D3B /* UIProgressView+FlatUI.m in Sources */,
 				8510DD861C7C039700F51D3B /* SDWebImageCompat.m in Sources */,
 				8510DD741C7C039600F51D3B /* MJRefreshHeader.m in Sources */,
@@ -845,7 +939,9 @@
 				8510DD761C7C039600F51D3B /* MJRefreshAutoNormalFooter.m in Sources */,
 				8510DCC11C7BEB6100F51D3B /* TRBaseTableViewController.m in Sources */,
 				8510DD111C7BF2C300F51D3B /* UITableViewCell+FlatUI.m in Sources */,
+				85B4A4101C7DA6120065D9A2 /* TRTableViewCell.m in Sources */,
 				85DE9DB01C7C318500C396B5 /* TRDeal.m in Sources */,
+				85B4A3FF1C7D55790065D9A2 /* TRSort.m in Sources */,
 				8510DD0E1C7BF2C300F51D3B /* UISlider+FlatUI.m in Sources */,
 				8510B7AA1C7AFC9B008C32EC /* AppDelegate.m in Sources */,
 				8510DD901C7C039700F51D3B /* UIImageView+HighlightedWebCache.m in Sources */,
@@ -853,6 +949,7 @@
 				8510DCBE1C7BEAD300F51D3B /* TRBaseNavController.m in Sources */,
 				8510DD7C1C7C039700F51D3B /* MJRefreshNormalHeader.m in Sources */,
 				8510DD921C7C039700F51D3B /* UIView+WebCacheOperation.m in Sources */,
+				85B4A4071C7D85B30065D9A2 /* TRRegionViewController.m in Sources */,
 				8510DCC71C7BEC0E00F51D3B /* TRBusinessViewController.m in Sources */,
 				8510DD851C7C039700F51D3B /* SDImageCache.m in Sources */,
 				8510DD911C7C039700F51D3B /* UIImageView+WebCache.m in Sources */,
@@ -869,6 +966,7 @@
 				8510DD711C7C039600F51D3B /* MJRefreshBackFooter.m in Sources */,
 				8510B7A71C7AFC9B008C32EC /* main.m in Sources */,
 				8510DD051C7BF2C300F51D3B /* FUITextField.m in Sources */,
+				85B4A40D1C7D8C6F0065D9A2 /* TRCity.m in Sources */,
 				8510DD8E1C7C039700F51D3B /* UIImage+MultiFormat.m in Sources */,
 				8510DD121C7BF2C300F51D3B /* UIToolbar+FlatUI.m in Sources */,
 				8510DD721C7C039600F51D3B /* MJRefreshComponent.m in Sources */,
